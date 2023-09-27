@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* First section */
+.pre-header {
+    background-color: #111618;
+    height: 60px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.pre-header .pre-menu {
+    list-style: none;
+}
+
+.pre-header .pre-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .pre-menu .picture {
+    margin-left: 20px;
+}
+
+.pre-header .pre-menu li a {
+    color: #707374;
+    text-decoration: none;
+}
+
+
+
+/* Second section */
+.main-header .menu {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.main-header .menu li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.main-header img {
+    margin-top: 10px;
+}
+
+.main-header .menu li a {
+    color: #707374;
+    text-decoration: none;
+}
+
+.main-header .menu button {
+    margin-left: 20px;
+    
+}
+
+.main-header .menu button:hover {
+   color: blue;
+   background: transparent;
+   transition: 0.5s;
+}
+
+
+
+/* Third Section */
+.hero-section{
+    background-image: url('../files/hero.jpg');
+    color: #fff;
+    padding-top: 125px;
+    padding-bottom: 120px;
+    background-size: cover;
+}
+
+.hero-section h1{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.hero-section p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-section button {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.hero-section button:hover {
+    color: blue;
+    background: transparent;
+    transition: 0.5s;
+}
+
+
+/* Fourth Section */
+.services-section {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.services-section h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-section h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4c007b;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.services-section p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.services-section .service-item {
+    background-color: #1b1f20;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.services-section .service-item:hover {
+    background-color: #4c007b;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: -10px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.95);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.95);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.95);    
+}
+
+
+.services-section .service-item h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+
+.services-section .service-item p {
+    color: gray;
+    font-size: 15px;
+}
+
+.services-section .service-item button {
+    color: #fff;
+    background-color: #1b1f20 ;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.services-section .service-item button:hover {
+    color: blue;
+    background: transparent;
+    transition: 0.5s;
+}
+
+
+/* Fifth Section */
+.how-it-works-section {
+    text-align: center;
+    background-image: url(../files/works.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-top:100px ;
+}
+
+.how-it-works-section h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#4c007b;
+}
+
+.how-it-works-section h2{
+    text-transform: uppercase;
+}
+
+.how-it-works-section a {
+    position: relative;
+    bottom: -30px;
+}
+
+
+
+
+
+
+
+
